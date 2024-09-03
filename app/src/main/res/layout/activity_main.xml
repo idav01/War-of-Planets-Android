@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvPlanetCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Planets: 1"
+        android:textSize="18sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="16dp" />
+
+    <TextView
+        android:id="@+id/tvSpaceshipCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spaceships: 0"
+        android:textSize="18sp"
+        android:layout_below="@id/tvPlanetCount"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp" />
+
+    <LinearLayout
+        android:id="@+id/llFreeGift"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:clickable="true"
+        android:focusable="true">
+
+        <TextView
+            android:id="@+id/tvFreeGift"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Free Gift"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvTimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7 days, 00:00 hours"
+            android:textSize="18sp"
+            android:layout_marginTop="4dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvGoldAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gold: 1000"
+        android:textSize="18sp"
+        android:layout_below="@id/tvSpaceshipCount"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/tvPlanetName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Planet Name (Level 1)"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tvGoldAmount"
+        android:layout_marginTop="8dp" />
+
+    <ImageView
+        android:id="@+id/ivHomePlanet"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tvPlanetName"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/home_planet" />
+
+    <TextView
+        android:id="@+id/tvPlanetStats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Power: 500\nInfluence: 500\nCommerce: 500"
+        android:textSize="18sp"
+        android:layout_below="@id/ivHomePlanet"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/tvPlanetStats"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/btnBuild"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Build"
+                android:layout_marginEnd="16dp" />
+
+            <Button
+                android:id="@+id/btnCollect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Collect"
+                android:layout_marginStart="16dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvCollectionTimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnBattleDrone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Battle Drone (0)"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp" />
+
+</RelativeLayout>

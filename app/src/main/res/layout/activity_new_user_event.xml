@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewUserEventActivity">
+
+    <!-- Day 1 -->
+    <TextView
+        android:id="@+id/tvDay1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Day 1"
+        android:textSize="18sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnCollectDay1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Collect 100g"
+        android:layout_toEndOf="@id/tvDay1"
+        android:layout_marginStart="16dp"
+        android:layout_alignBaseline="@id/tvDay1" />
+
+    <TextView
+        android:id="@+id/tvTimerDay1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00"
+        android:layout_toEndOf="@id/btnCollectDay1"
+        android:layout_marginStart="16dp"
+        android:layout_alignBaseline="@id/btnCollectDay1" />
+
+    <!-- Day 2 -->
+    <TextView
+        android:id="@+id/tvDay2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Day 2"
+        android:textSize="18sp"
+        android:layout_below="@id/tvDay1"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnCollectDay2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Collect 200g"
+        android:layout_toEndOf="@id/tvDay2"
+        android:layout_marginStart="16dp"
+        android:layout_alignBaseline="@id/tvDay2" />
+
+    <TextView
+        android:id="@+id/tvTimerDay2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00"
+        android:layout_toEndOf="@id/btnCollectDay2"
+        android:layout_marginStart="16dp"
+        android:layout_alignBaseline="@id/btnCollectDay2" />
+
+    <!-- Day 3 -->
+    <TextView
+        android:id="@+id/tvDay3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Day 3"
+        android:textSize="18sp"
+        android:layout_below="@id/tvDay2"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnCollectDay3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Collect 300g"
+        android:layout_toEndOf="@id/tvDay3"
+        android:layout_marginStart="16dp"
+        android:layout_alignBaseline="@id/tvDay3" />
+
+    <TextView
+        android:id="@+id/tvTimerDay3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00"
+        android:layout_toEndOf="@id/btnCollectDay3"
+        android:layout_marginStart="16dp"
+        android:layout_alignBaseline="@id/btnCollectDay3" />
+
+    <!-- Day 4 -->
+    <TextView
+        android:id="@+id/tvDay4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Day 4"
+        android:textSize="18sp"
+        android:layout_below="@id/tvDay3"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnCollectDay4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Collect 400g"
+        android:layout_toEndOf="@id/tvDay4"
+        android:layout_marginStart="16dp"
+        android:layout_alignBaseline="@id/tvDay4" />
+
+    <TextView
+        android:id="@+id/tvTimerDay4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00"
+        android:layout_toEndOf="@id/btnCollectDay4"
+        android:layout_marginStart="16dp"
+        android:layout_alignBaseline="@id/btnCollectDay4" />
+
+    <!-- Day 5 -->
+    <TextView
+        android:id="@+id/tvDay5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Day 5"
+        android:textSize="18sp"
+        android:layout_below="@id/tvDay4"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnCollectDay5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Collect 500g"
+        android:layout_toEndOf="@id/tvDay5"
+        android:layout_marginStart="16dp"
+        android:layout_alignBaseline="@id/tvDay5" />
+
+    <TextView
+        android:id="@+id/tvTimerDay5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00"
+        android:layout_toEndOf="@id/btnCollectDay5"
+        android:layout_marginStart="16dp"
+        android:layout_alignBaseline="@id/btnCollectDay5" />
+
+    <!-- Day 6 -->
+    <TextView
+        android:id="@+id/tvDay6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Day 6"
+        android:textSize="18sp"
+        android:layout_below="@id/tvDay5"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnCollectDay6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Collect 600g"
+        android:layout_toEndOf="@id/tvDay6"
+        android:layout_marginStart="16dp"
+        android:layout_alignBaseline="@id/tvDay6" />
+
+    <TextView
+        android:id="@+id/tvTimerDay6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00"
+        android:layout_toEndOf="@id/btnCollectDay6"
+        android:layout_marginStart="16dp"
+        android:layout_alignBaseline="@id/btnCollectDay6" />
+
+    <!-- Day 7 -->
+    <TextView
+        android:id="@+id/tvDay7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Day 7"
+        android:textSize="18sp"
+        android:layout_below="@id/tvDay6"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnCollectDay7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Collect 700g"
+        android:layout_toEndOf="@id/tvDay7"
+        android:layout_marginStart="16dp"
+        android:layout_alignBaseline="@id/tvDay7" />
+
+    <TextView
+        android:id="@+id/tvTimerDay7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00"
+        android:layout_toEndOf="@id/btnCollectDay7"
+        android:layout_marginStart="16dp"
+        android:layout_alignBaseline="@id/btnCollectDay7" />
+
+    <TextView
+        android:id="@+id/tvBonusDay7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+ 1 Planet and Resources"
+        android:layout_toEndOf="@id/tvTimerDay7"
+        android:layout_marginStart="16dp"
+        android:layout_alignBaseline="@id/tvTimerDay7" />
+
+</RelativeLayout>
